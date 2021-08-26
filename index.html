@@ -151,11 +151,12 @@
                                 <h3>Send us your details and we’ll get in touch to book a free consultation call.</h3>
                             </div>
                             <!--Form structure from Bootstrap-->
-                            <form onsubmit="alert('Thanks for your details! We will get in touch with you soon')">
+                            <form action="https://formspree.io/f/mrgrongr" method="post" >
                                 <div class="form-group form-style">
                                     <input type="text" name="first-name" id="firstname" class="form-control form-bg" placeholder="First Name" required/>
                                     <input type="text" name="first-name" id="lastname" class="form-control form-bg" placeholder="Last Name" required/>
-                                    <input type="email" name="email" id="emailaddress" class="form-control form-bg" placeholder="Email" required/>
+                                    <input type="email" name="_replyto" id="emailaddress" class="form-control form-bg" placeholder="Email" required/>
+                                    <input type="tel" name="phone" id="phone" class="form-control form-bg" placeholder="Phone" required pattern="[0-9]{10}"/>
                                 </div>
                                 <input type="submit" value="Submit" class="sign-up-btn sign-up-btn-hover" id="btn-sm-screen" data-toggle="modal" data-target="#formModal" />
                             </form>
@@ -169,7 +170,7 @@
         <footer id="footer">
             
             <div class="media-icons">
-                <a href="mailto:shobhachaudhary1997@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                <a href="mailto:aspiremindsconsulting@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
                 <i class="fa fa-phone"></i><span style="font-size: small;">+91-8860472400</span>
             </div>
             
